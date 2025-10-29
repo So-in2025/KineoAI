@@ -1,0 +1,7 @@
+{
+  "name": "Veo Video Generator",
+  "description": "An application to generate a cinematic video ad from a user-uploaded photo and a detailed prompt using Google's Veo model.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
