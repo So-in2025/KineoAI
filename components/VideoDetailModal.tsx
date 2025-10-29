@@ -3,7 +3,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { GeneratedVideoType, ProjectType, Shot } from '../types';
 import { useTranslation } from '../hooks/useTranslation';
-import { getPerformanceAnalysis, generateTextOverlayVariations } from '../../services/geminiService';
 import Spinner from './Spinner';
 
 interface VideoDetailModalProps {
